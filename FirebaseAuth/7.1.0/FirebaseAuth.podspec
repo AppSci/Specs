@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FirebaseAuth'
-  s.version          = '7.1.0'
+  s.version          = '7.1.1'
   s.summary          = 'Apple platform client for Firebase Authentication'
 
   s.description      = <<-DESC
@@ -13,8 +13,7 @@ supports email and password accounts, as well as several 3rd party authenticatio
   s.authors          = 'Google, Inc.'
 
   s.source           = {
-    :git => 'https://github.com/AppSci/firebase-ios-sdk.git',
-    :tag => 'CocoaPods-' + s.version.to_s
+    :git => 'https://github.com/AppSci/firebase-ios-sdk.git'
   }
 
   s.social_media_url = 'https://twitter.com/Firebase'
